@@ -35,6 +35,46 @@ const myQuestions = [
       d: "5"
     },
     correctAnswer: "c"
+  },
+    {
+    question: "How many moons does Mars have?",
+    answers: {
+      a: "1",
+      b: "2",
+      c: "4",
+      d: "5"
+    },
+    correctAnswer: "b"
+  },
+    {
+    question: "Which planet has the Great Red Spot?",
+    answers: {
+      a: "Mars",
+      b: "Mercury",
+      c: "Jupiter",
+      d: "Earth"
+    },
+    correctAnswer: "c"
+  },
+    {
+    question: "How many planets are in the Solar System?",
+    answers: {
+      a: "7",
+      b: "10",
+      c: "9",
+      d: "8"
+    },
+    correctAnswer: "d"
+  },
+    {
+    question: "Which planet is the largest in the Solar System?",
+    answers: {
+      a: "Saturn",
+      b: "Jupiter",
+      c: "Earth",
+      d: "Neptune"
+    },
+    correctAnswer: "b"
   }
 ];
 
@@ -103,7 +143,7 @@ function showResults(){
         }
     });
     
-    // show number of correct answers out of total
+    //Show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
 }
 
