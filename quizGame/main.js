@@ -1,4 +1,3 @@
-(function(){
 //Variables
 const quizContainer = document.getElementById('quiz');
 const resultsContainer = document.getElementById('results');
@@ -78,6 +77,7 @@ const myQuestions = [
   }
 ];
 
+(function () {
 //Init function
 function buildQuiz(){
     //Stores output
