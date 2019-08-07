@@ -5,6 +5,11 @@ body{
     text-align: center;
 }
 
+.quiz-container {
+    width: 30%;
+    margin: auto auto;
+}
+
 .question{
     font-weight: 600;
     margin-left: 20px;
@@ -18,7 +23,8 @@ body{
 .answers label{
   display: block;
 }
-#submit{
+#submit {
+    display: block;
     font-family: sans-serif;
     font-size: 20px;
     background-color: darkred;
@@ -27,8 +33,35 @@ body{
     border-radius: 3px;
     padding: 20px;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
-#submit:hover{
+#submit:hover,
+#previous:hover,
+#next:hover {
     background-color: indianred;
+    transition: .3s ease-in;
+}
+
+#previous {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: darkred;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+#next {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: darkred;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 20px auto;
 }

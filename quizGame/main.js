@@ -129,7 +129,7 @@ function showResults(){
         const userAnswer = (answerContainer.querySelector(selector) || {}).value;
         
         //If else
-        if(userAnswer===currentQuestion.correctAnswer){
+        if(userAnswer===currentQuestion.correctAnswer) {
             
             //Add to number of correct
             numCorrect++;
